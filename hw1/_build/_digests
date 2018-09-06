@@ -1,0 +1,4 @@
+"Rule: ocaml dependencies ml (%=hw1 )": "/c\178\140\203\170.\130Upb\159\189\166\004\230"
+"Rule: ocaml: cmo* -> byte (%=hw1 )": "\129\153f\165aw\174\138\1446\179\158\\\150+\029"
+"Resource: /home/dylan/workspace/496/hw1/hw1.ml": "(\028\031\214\022\196\205\176\244\170\157\t}\030\219\221"
+"Rule: ocaml: ml -> cmo & cmi (%=hw1 )": "t\tr\224\219aS\003\193\225\rGQ\164J\201"

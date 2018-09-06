@@ -1,0 +1,16 @@
+<Program>
+<Expression>
+let <Identifier> = <Expression> in <Expression>
+let <Identifier> = proc (<Identifier>) { <Expression> } in <Expression>
+let <Identifier> = proc (<Identifier>) { <Expression> - <Expression> } in <Expression>
+let <Identifier> = proc (<Identifier>) { <Expression> - <Expression> } in (<Expression><Expression>)
+let <Identifier> = proc (<Identifier>) { <Expression> - <Expression> } in (<Identifier><Expression>)
+let <Identifier> = proc (<Identifier>) { <Expression> - <Expression> } in (<Identifier><Number>)
+let <Identifier> = proc (<Identifier>) { <Identifier> - <Expression> } in (<Identifier><Number>)
+let <Identifier> = proc (<Identifier>) { <Identifier> - <Number> } in (<Identifier> <Number>)
+let f = proc (<Identifier>) { <Identifier> - <Number> } in (<Identifier> <Number>)
+let f = proc (x) { <Identifier> - <Number> } in (<Identifier> <Number>)
+let f = proc (x) { x - <Number> } in (<Identifier> <Number>)
+let f = proc (x) { x - 11 } in (<Identifier> <Number>)
+let f = proc (x) { x - 11 } in (f <Number>)
+let f = proc (x) { x - 11 } in (f 77)
